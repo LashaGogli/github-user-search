@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F6F8FF;
+    display: grid;
+    place-items: center;
+}
+
+.middleContainer {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.firstDiv {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.secondDiv {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+.thirdDiv {
+    width: 100%;
+    height: 420px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.devfinder {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    color: #222731;
+}
+
+.dark {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 2.5px;
+    color: #697C9A;
+}
+
+.darkModeDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+    cursor: pointer;
+}
+
+.light {
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+}
+
+.searchDiv {
+    width: 80px;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+}
+
+.button {
+    width: 106px;
+    height: 50px;
+    background: #0079FF;
+    border-radius: 10px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.input {
+    height: 97%;
+    width: 80%;
+    border: none;
+    outline: none;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #4B6A9B;
+}
+
+.input::placeholder {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #4B6A9B;
+
+}
+
+.noresult {
+    width: 120px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #F74646;
+    margin-right: 40px;
+}
+
+.avatarDiv {
+    width: 177px;
+    height: 80%;
+
+}
+
+.infoDiv {
+    width: 480px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.roundDiv {
+
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.titleDiv {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleP {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    color: #2B3442;
+}
+
+.gareDiv {
+
+    height: 70px;
+    width: 100%;
+
+}
+
+.userDiv {
+    margin-top: 0;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0079FF;
+}
+
+.dateDiv {
+    width: 170px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dateSpan {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: right;
+    color: #697C9A;
+}
+
+.bioP {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #4B6A9B;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+.followersDiv {
+    background: #F6F8FF;
+    border-radius: 10px;
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.smallDivs {
+    width: 75px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.repos {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #4B6A9B;
+}
+
+.counterspan {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #2B3442;
+}
+
+.downDiv {
+    border-radius: 10px;
+    width: 100%;
+    height: 85px;
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+}
+
+.blogDiv {
+    width: 230px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.blogP {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #4B6A9B;
+    margin-left: 20px;
+}
