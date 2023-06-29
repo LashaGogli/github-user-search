@@ -3,7 +3,7 @@
 
 .container {
     max-width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #F6F8FF;
     display: grid;
     place-items: center;
@@ -113,7 +113,6 @@
 }
 
 .input {
-    height: 97%;
     width: 80%;
     border: none;
     outline: none;
