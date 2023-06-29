@@ -572,10 +572,8 @@
     }
     .middleContainer{
         height: 70%;
+        padding-bottom: 200px;
     }
-    .container{
-        display: block;
-        padding-top: 50px;
-    }
+
 
 }
