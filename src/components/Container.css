@@ -573,6 +573,7 @@
     .middleContainer{
         height: 70%;
         padding-bottom: 200px;
+        gap: 20px;
     }
 
 
