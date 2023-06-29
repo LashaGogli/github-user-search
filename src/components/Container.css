@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 
 .container {
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
     background-color: #F6F8FF;
     display: grid;
@@ -89,7 +89,7 @@
 }
 
 .searchDiv {
-    width: 80px;
+    width: 15%;
     height: 100%;
     display: grid;
     place-items: center;
@@ -147,17 +147,19 @@
 }
 
 .avatarDiv {
-    width: 177px;
+    max-width: 177px;
     height: 80%;
+
 
 }
 
 .infoDiv {
-    width: 480px;
+    max-width: 70%;
     height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-right: 40px;
 }
 
 .roundDiv {
@@ -188,7 +190,7 @@
 .gareDiv {
 
     height: 70px;
-    width: 100%;
+    max-width: 100%;
 
 }
 
@@ -203,7 +205,7 @@
 }
 
 .dateDiv {
-    width: 170px;
+    width: 40%;
     height: 22px;
     display: flex;
     justify-content: space-between;
@@ -233,11 +235,12 @@
 .followersDiv {
     background: #F6F8FF;
     border-radius: 10px;
-    width: 100%;
+    max-width: 100%;
     height: 85px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
 .smallDivs {
@@ -278,10 +281,11 @@
 }
 
 .blogDiv {
-    width: 230px;
+    width: 100%;
     height: 22px;
     display: flex;
     align-items: center;
+    padding-right: 15px;
 
 
 }
@@ -294,4 +298,280 @@
     line-height: 22px;
     color: #4B6A9B;
     margin-left: 20px;
+}
+
+@media (max-width: 1300px) {
+    .middleContainer {
+        width: 55%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .middleContainer {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .middleContainer {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .middleContainer {
+        width: 65%;
+    }
+}
+
+@media (max-width: 900px) {
+    .middleContainer {
+        width: 70%;
+    }
+
+    .roundDiv {
+        width: 100px;
+        height: 100px;
+    }
+
+    .titleP {
+        font-size: 24px;
+    }
+
+    .dateSpan {
+        font-size: 14px;
+    }
+
+    .blogP {
+        font-size: 14px;
+    }
+
+    .counterspan {
+        font-size: 21px;
+    }
+
+    .input {
+        font-size: 17px;
+    }
+
+    .repos {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 800px) {
+    .middleContainer {
+        width: 75%;
+    }
+
+    .roundDiv {
+        width: 90px;
+        height: 90px;
+    }
+
+    .titleP {
+        font-size: 22px;
+    }
+
+    .dateSpan {
+        font-size: 13px;
+    }
+
+    .blogP {
+        font-size: 13px;
+    }
+
+    .counterspan {
+        font-size: 20px;
+    }
+
+    .input {
+        font-size: 16px;
+    }
+
+    .input::placeholder {
+        font-size: 17px;
+    }
+
+    .repos {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 700px) {
+    .middleContainer {
+        width: 80%;
+    }
+
+    .roundDiv {
+        width: 85px;
+        height: 85px;
+    }
+
+    .titleP {
+        font-size: 20px;
+    }
+
+    .dateSpan {
+        font-size: 12px;
+    }
+
+    .blogP {
+        font-size: 12px;
+    }
+
+    .counterspan {
+        font-size: 19px;
+    }
+
+    .input {
+        font-size: 15px;
+    }
+
+    .input::placeholder {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .middleContainer {
+        width: 85%;
+    }
+
+    .roundDiv {
+        width: 80px;
+        height: 80px;
+    }
+
+    .titleP {
+        font-size: 18px;
+    }
+
+    .dateSpan {
+        font-size: 11px;
+    }
+
+    .blogP {
+        font-size: 11px;
+    }
+
+    .counterspan {
+        font-size: 18px;
+    }
+
+    .input {
+        font-size: 14px;
+    }
+
+    .input::placeholder {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .middleContainer {
+        width: 90%;
+    }
+
+    .roundDiv {
+        width: 75px;
+        height: 75px;
+    }
+
+    .titleP {
+        font-size: 16px;
+    }
+
+    .dateSpan {
+        font-size: 10px;
+    }
+
+    .blogP {
+        font-size: 10px;
+    }
+
+    .counterspan {
+        font-size: 17px;
+    }
+
+    .input {
+        font-size: 13px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .middleContainer {
+        width: 95%;
+    }
+
+    .roundDiv {
+        width: 70px;
+        height: 70px;
+    }
+
+    .titleP {
+        font-size: 14px;
+    }
+
+    .dateSpan {
+        font-size: 9px;
+    }
+
+    .blogP {
+        font-size: 9px;
+    }
+
+    .counterspan {
+        font-size: 16px;
+    }
+
+    .input {
+        font-size: 12px;
+    }
+
+    .input::placeholder {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 376px) {
+    .avatarDiv {
+        max-width: 177px;
+        height: 20%;
+        margin-top: 15px;
+    }
+
+    .thirdDiv {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .gareDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100px;
+        gap: 5px;
+    }
+    .infoDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+    .titleDiv {
+       flex-direction: column;
+    }
+    .dateDiv{
+        width: 100%;
+    }
+    .middleContainer{
+        height: 70%;
+    }
+
 }
