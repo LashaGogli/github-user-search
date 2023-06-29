@@ -573,5 +573,9 @@
     .middleContainer{
         height: 70%;
     }
+    .container{
+        display: block;
+        padding-top: 50px;
+    }
 
 }
